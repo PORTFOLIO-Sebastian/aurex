@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-aurex-bg: #12110F;
+  --color-aurex-surface: #1C1A17;
+  --color-aurex-surface-alt: #242119;
+  --color-aurex-gold: #C9A24B;
+  --color-aurex-gold-soft: #E8D9AE;
+  --color-aurex-positive: #3FAE72;
+  --color-aurex-negative: #C1554B;
+  --color-aurex-text: #EDEAE3;
+  --color-aurex-text-muted: #9C978C;
+
+  --font-sans: var(--font-inter);
+}
+
+:root {
+  --background: #12110F;
+  --foreground: #EDEAE3;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@utility tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
