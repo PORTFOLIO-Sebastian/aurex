@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AUREX - Inteligencia de Mercado Cripto 🚀
 
-## Getting Started
+AUREX es un dashboard profesional de seguimiento e inteligencia de mercado para criptomonedas en tiempo real, diseñado con un fuerte enfoque técnico y analítico orientado al sector Fintech.
 
-First, run the development server:
+🔗 **[Visitar AUREX en Vivo](https://aurex-dusky-nine.vercel.app)**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌟 Características Principales
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Métricas Globales (Macro):** Información en tiempo real sobre la capitalización total del ecosistema, volumen de 24 horas y la métrica de dominancia de Bitcoin.
+- **Índice de Miedo y Codicia (Fear & Greed):** Termómetro visual y dinámico del sentimiento general del mercado, alimentado en tiempo real.
+- **Tabla de Mercado Avanzada:** Explora el ranking de criptomonedas, con columnas ordenables por métricas financieras. Incluye mini-gráficos (*Sparklines*) que muestran la tendencia directa de los últimos 7 días.
+- **Comparador Relativo:** Selecciona hasta 3 criptomonedas y contrasta su rendimiento. AUREX normaliza automáticamente los precios a un % de cambio para poder comparar monedas de precios dispares desde un mismo punto de origen.
+- **Terminal de Detalle (Velas Japonesas):** Vista detallada que permite alternar entre el clásico gráfico de Línea o un formato avanzado de Velas (OHLC) interactivo, el estándar para traders.
+- **Favoritos (Watchlist):** Agrega y quita monedas con un click. El portafolio se guarda localmente para que puedas seguir únicamente los activos que te importan.
+- **Diseño Premium y Responsive:** Estética oscura, elegante y completamente adaptable a pantallas móviles y de escritorio.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Stack Tecnológico
 
-## Learn More
+- **Framework:** Next.js 15+ (App Router)
+- **Lenguaje:** TypeScript
+- **Estilos:** Tailwind CSS
+- **Gestión de Estado Asíncrono:** TanStack React Query
+- **Gráficos y Visualización de Datos:** Recharts & Lightweight Charts (TradingView)
+- **Iconografía:** Lucide React
+- **Consumo de APIs:** CoinGecko API (con sistema de doble caché local) & Alternative.me API
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Ejecución Local
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Si deseas correr este proyecto en tu propia máquina, sigue estos pasos:
 
-## Deploy on Vercel
+1. Clona este repositorio.
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+3. Ejecuta el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+*(Nota: Este proyecto utiliza funciones de Edge Caching de Next.js, por lo que su rendimiento máximo se observa al ejecutar `npm run build` y luego `npm run start`).*
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 👤 Autor
+Este producto es parte del portafolio de desarrollo de **Javier Sebastian**.
+*This product is part of Javier Sebastian's portfolio.*
