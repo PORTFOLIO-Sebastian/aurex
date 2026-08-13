@@ -1,7 +1,7 @@
 # AUREX
 ### Inteligencia de mercado cripto en tiempo real — Documento de especificaciones
 
-**Proyecto:** #8 del portafolio (anteriormente "CoinPulse")
+**Proyecto:** #8 del portafolio
 **Autor:** —
 **Estado:** Por iniciar
 **Última actualización:** 2026-08-12
